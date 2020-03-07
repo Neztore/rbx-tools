@@ -49,4 +49,3 @@ for _, service in pairs(game:GetChildren()) do
 	f()	
 end)
 end
-print("Searched!")
