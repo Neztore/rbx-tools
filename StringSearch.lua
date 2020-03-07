@@ -1,5 +1,10 @@
--- Searches all scripts in instance Inst for string Str.
--- Neztore 2020
+--[[
+	Searches all scripts in instance Inst for string Str.
+	Designed for large workloads - splits search into corotine blocks of 100 items, this will usually be fine.
+		If you have an absolutely massive (and I mean, really big) game you might want to increase that number.
+	Neztore 2020
+--]]
+
 function search(inst, str)
 	local desc = inst:GetDescendants()
 	if #desc <= 100 then
