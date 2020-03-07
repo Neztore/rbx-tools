@@ -6,6 +6,7 @@
 --]]
 
 function search(inst, str)
+	str = string.lower(str)
 	local desc = inst:GetDescendants()
 	for count = 1, #desc, 100 do
 		local success, errorMessage = coroutine.resume(coroutine.create(function()
