@@ -21,7 +21,7 @@ function search(inst, str)
 				end
 				if desc[inner]:isA("Script")  then
 					if desc[inner].Source then
-						local m, a = string.find(desc[inner].Source, str)
+						local m, a = string.find(string.lower(desc[inner].Source), str)
 						if m then
 							warn("!! Found in "..desc[inner]:GetFullName() .. " at position "..m)
 						end
