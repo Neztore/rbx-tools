@@ -8,5 +8,5 @@ I don't expect people to use these, they're literally just open sourced to make 
 # Contact me
 
 - Twitter; [@Neztore_](https://twitter.com/@neztore_)
-- Reddit; [Neztore](https://reddit.com/neztore)
+- Reddit; [Neztore](https://reddit.com/u/neztore)
 - Discord (Preferred); `Neztore#6998`
