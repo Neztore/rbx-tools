@@ -7,9 +7,6 @@
 
 function search(inst, str)
 	local desc = inst:GetDescendants()
-	if #desc <= 100 then
-		return print("too few children")
-	end
 	for count = 1, #desc, 100 do
 		local success, errorMessage = coroutine.resume(coroutine.create(function()
 			local limit = count+100
@@ -47,6 +44,7 @@ for _, service in pairs(game:GetChildren()) do
   local s, e = pcall(function() 
 	local f = coroutine.wrap(function()
 		search(service, s)
+		print("Searched "..service.Name)
 	end)
 	f()
 end)
