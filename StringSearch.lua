@@ -44,8 +44,8 @@ for _, service in pairs(game:GetChildren()) do
   local s, e = pcall(function() 
 	local f = coroutine.wrap(function()
 		search(service, s)
-		print("Searched "..service.Name)
 	end)
-	f()
+	f()	
 end)
 end
+print("Searched!")
