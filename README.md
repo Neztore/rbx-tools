@@ -8,6 +8,4 @@ These are predominately Lua files. You may also be interested in [Polaris](https
 
 # Contact me
 
-- Twitter; [@Neztore_](https://twitter.com/@neztore_)
-- Reddit; [Neztore](https://reddit.com/u/neztore)
-- Discord (Preferred); `Neztore#6998`
+hi@nezto.re
